@@ -1,0 +1,52 @@
+2025-10-27 01:07:32,283 - __main__ - INFO - Fetching repositories for organization: microsoft
+2025-10-27 01:08:14,474 - __main__ - INFO - Fetching repositories for organization: GFG
+2025-10-27 01:08:15,218 - __main__ - ERROR - API error: 401 - {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+2025-10-27 01:08:15,219 - __main__ - INFO - Found 0 repositories
+2025-10-27 01:08:18,907 - __main__ - INFO - Fetching repositories for organization: GFG
+2025-10-27 01:08:20,890 - __main__ - INFO - Found 71 repositories
+2025-10-27 01:08:20,891 - __main__ - INFO - Extracting packages from opensearch-k8s-operator
+2025-10-27 01:08:20,891 - __main__ - INFO - Extracting packages from open-webui
+2025-10-27 01:08:20,891 - __main__ - INFO - Extracting packages from serverless-apigateway-plugin
+2025-10-27 01:08:20,891 - __main__ - INFO - Extracting packages from rubber-doc
+2025-10-27 01:08:20,891 - __main__ - INFO - Extracting packages from bloom-filter
+2025-10-27 01:08:20,894 - __main__ - INFO - Reports generated in results
+2025-10-27 01:08:46,768 - __main__ - WARNING - Rate limit low. Waiting 3585 seconds...
+2025-10-27 01:12:21,992 - __main__ - INFO - Fetching repositories for organization: GFG
+2025-10-27 01:12:23,782 - __main__ - INFO - Found 71 repositories
+2025-10-27 01:12:23,783 - __main__ - INFO - Extracting packages from opensearch-k8s-operator
+2025-10-27 01:12:23,783 - __main__ - INFO - Extracting packages from open-webui
+2025-10-27 01:12:23,783 - __main__ - INFO - Extracting packages from serverless-apigateway-plugin
+2025-10-27 01:12:23,783 - __main__ - INFO - Extracting packages from rubber-doc
+2025-10-27 01:12:23,783 - __main__ - INFO - Extracting packages from bloom-filter
+2025-10-27 01:12:23,783 - __main__ - INFO - Checking 1 packages against NPM registry
+2025-10-27 01:12:23,783 - __main__ - INFO - Fetching commits for repository: GFG/opensearch-k8s-operator
+2025-10-27 01:12:31,371 - __main__ - INFO - Found 1174 commits
+2025-10-27 01:12:31,371 - __main__ - INFO - Fetching commits for repository: GFG/open-webui
+2025-10-27 01:13:26,543 - __main__ - INFO - Found 10000 commits
+2025-10-27 01:13:26,545 - __main__ - INFO - Fetching commits for repository: GFG/serverless-apigateway-plugin
+2025-10-27 01:13:26,955 - __main__ - INFO - Found 29 commits
+2025-10-27 01:13:26,956 - __main__ - INFO - Fetching commits for repository: GFG/rubber-doc
+2025-10-27 01:13:26,999 - __main__ - INFO - Fetching repositories for organization: GFG
+2025-10-27 01:13:27,667 - __main__ - INFO - Found 47 commits
+2025-10-27 01:13:27,667 - __main__ - INFO - Fetching commits for repository: GFG/bloom-filter
+2025-10-27 01:13:28,103 - __main__ - INFO - Found 20 commits
+2025-10-27 01:13:28,406 - __main__ - INFO - Reports generated in results
+2025-10-27 01:13:28,500 - __main__ - INFO - Found 71 repositories
+2025-10-27 01:13:28,501 - __main__ - INFO - Extracting packages from opensearch-k8s-operator
+2025-10-27 01:13:28,501 - __main__ - INFO - Extracting packages from open-webui
+2025-10-27 01:13:28,501 - __main__ - INFO - Extracting packages from serverless-apigateway-plugin
+2025-10-27 01:13:28,501 - __main__ - INFO - Extracting packages from rubber-doc
+2025-10-27 01:13:28,501 - __main__ - INFO - Extracting packages from bloom-filter
+2025-10-27 01:13:28,502 - __main__ - INFO - Extracting packages from seller-center-sdk-java
+2025-10-27 01:13:28,502 - __main__ - INFO - Extracting packages from seller-center-sdk-php
+2025-10-27 01:13:28,502 - __main__ - INFO - Extracting packages from dto-marketplace
+2025-10-27 01:13:28,502 - __main__ - INFO - Extracting packages from fastmcp
+2025-10-27 01:13:28,502 - __main__ - INFO - Extracting packages from oaf-public-charts
+2025-10-27 01:13:28,502 - __main__ - INFO - Checking 2 packages against NPM registry
+2025-10-27 01:13:28,503 - __main__ - INFO - Fetching commits for repository: GFG/opensearch-k8s-operator
+2025-10-27 01:13:35,531 - __main__ - INFO - Found 1174 commits
+2025-10-27 01:13:35,532 - __main__ - INFO - Fetching commits for repository: GFG/open-webui

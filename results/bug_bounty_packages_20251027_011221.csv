@@ -1,0 +1,2 @@
+name,version,package_manager,type,is_vulnerable,is_unclaimed,npm_status
+serverless-apigateway-plugin-main,1.0.0,go,package,False,False,

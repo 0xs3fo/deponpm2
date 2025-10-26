@@ -5,13 +5,23 @@ import asyncio
 import logging
 import sys
 from pathlib import Path
-from typing import List, Optional
+from typing import List, Optional, Dict
 import click
-from rich.console import Console
-from rich.progress import Progress, SpinnerColumn, TextColumn, BarColumn, TaskProgressColumn
-from rich.table import Table
-from rich.panel import Panel
-from rich import print as rprint
+# Import rich with fallback
+try:
+    from rich.console import Console
+    from rich.progress import Progress, SpinnerColumn, TextColumn, BarColumn, TaskProgressColumn
+    from rich.table import Table
+    from rich.panel import Panel
+    from rich import print as rprint
+    RICH_AVAILABLE = True
+except ImportError:
+    RICH_AVAILABLE = False
+    # Fallback console
+    class Console:
+        def print(self, *args, **kwargs):
+            print(*args)
+    console = Console()
 
 # Add src directory to path
 sys.path.append(str(Path(__file__).parent))
