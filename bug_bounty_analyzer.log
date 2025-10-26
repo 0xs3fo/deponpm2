@@ -1,0 +1,14 @@
+ 2025-10-27 01:18:56,043 - __main__ - INFO - Fetching repositories for organization: GFG
+2025-10-27 01:18:57,761 - __main__ - INFO - Found 71 repositories
+2025-10-27 01:18:57,762 - __main__ - INFO - Extracting packages from opensearch-k8s-operator
+2025-10-27 01:18:57,762 - __main__ - INFO - Extracting packages from open-webui
+2025-10-27 01:18:57,762 - __main__ - INFO - Extracting packages from serverless-apigateway-plugin
+2025-10-27 01:18:57,763 - __main__ - INFO - Extracting packages from rubber-doc
+2025-10-27 01:18:57,763 - __main__ - INFO - Extracting packages from bloom-filter
+2025-10-27 01:18:57,763 - __main__ - INFO - Extracting packages from seller-center-sdk-java
+2025-10-27 01:18:57,763 - __main__ - INFO - Extracting packages from seller-center-sdk-php
+2025-10-27 01:18:57,763 - __main__ - INFO - Extracting packages from dto-marketplace
+2025-10-27 01:18:57,764 - __main__ - INFO - Extracting packages from fastmcp
+2025-10-27 01:18:57,764 - __main__ - INFO - Extracting packages from oaf-public-charts
+2025-10-27 01:18:57,764 - __main__ - INFO - Checking 2 packages against NPM registry
+2025-10-27 01:18:57,764 - __main__ - INFO - Fetching commits for repository: GFG/opensearch-k8s-operator

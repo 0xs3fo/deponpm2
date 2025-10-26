@@ -53,8 +53,7 @@ python src/main.py --org organization-name \
     --output ./results \
     --private \
     --deleted \
-    --max-repos 50 \
-    --format json csv html
+    --max-repos 50
 ```
 
 ### Command Line Options
@@ -64,25 +63,17 @@ python src/main.py --org organization-name \
 - `--output`: Output directory for results (default: ./results)
 - `--private`: Include private repositories (default: false)
 - `--deleted`: Analyze deleted commits (default: true)
-- `--max-repos`: Maximum number of repositories to analyze (default: all)
-- `--format`: Output formats for reports (default: json,csv,html,txt)
+- `--max-repos`: Maximum number of repositories to analyze (default: 10)
 
 ## 📁 Project Structure
 
 ```
 bug-bounty-package-analyzer/
 ├── src/
-│   ├── main.py              # Entry point
-│   ├── github_client.py     # GitHub API interactions
-│   ├── repo_cloner.py       # Repository cloning functionality
-│   ├── commit_analyzer.py   # Commit history analysis
-│   ├── package_extractor.py # Package/dependency extraction
-│   ├── npm_checker.py       # NPM registry verification
-│   └── reporter.py          # Results reporting
+│   └── main.py              # Main analyzer (all-in-one)
 ├── config/
 │   └── settings.py          # Configuration settings
-├── data/                    # Storage for cloned repos and results
-├── logs/                    # Log files
+├── results/                 # Analysis results and reports
 ├── requirements.txt         # Python dependencies
 └── README.md               # This file
 ```
